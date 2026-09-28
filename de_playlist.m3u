@@ -52,23 +52,26 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 https://calistaiptv.my.id/indopart/play.m3u8?id=18162&type=hls
 
 # ===== INTERNATIONAL =====
-#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/494/982/png-transparent-united-states-voice-of-america-internet-radio-voa-amharic-broadcasting-united-states-text-logo-united-states.png" group-title="Berita International",Voice of America
-https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist_1080.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YHrLDix.png" group-title="Berita International",NTD
+http://cnhls.ntdtv.com/cn/live800/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_332.jpg" group-title="Berita International",BBC World
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/7d38a4525dfa42b08a94c22c173061da/index.mpd|license_type=clearkey&license_key=0e7c10b448444c53904de46d1a30f427:d638c2cb75ff93d38b5ec8b6f5098dea&User-Agent=Mozilla/5.0
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mctD9Pn.png" group-title="Berita International",CCTV+ 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/5cf4dec937a44b00019d908f/1559574960556-C7EGQERUCYQJ92N7JRV1/Hi+res+Russia+Today+logo+2.jpg?format=2500w" group-title="Berita International",Russia Today
-https://op-flashcon-digdayahd-1.dens.tv/h/h226/index.m3u8?app_type=web&userid=lite&chname=Russia_Today_RT-|User-Agent=referrer=http://www.dens.tv/
+#EXTINF:-1 tvg-logo="https://i.imgur.com/e41oLuC.png" group-title="Berita International",CCTV+ 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/aljazeera.png" group-title="Berita International",Al Jazeera Arabic
-https://op-flashcon-digdayahd-1.dens.tv/s/s16/index.m3u8?app_type=web&userid=lite&chname=Al_Jazeera_Arabic|User-Agent=referrer=http://www.dens.tv/
+#EXTINF:-1 tvg-id="AlNajahNews.ps@SD" tvg-logo="https://i.imgur.com/c2bwn4G.png" group-title="Berita International",Al Najah News
+https://streaming.najah.edu:8443/hls/AlNajah.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.mncnow.id/images/channel/87f1d571/242b_r32.jpg" group-title="Berita International",CGTN
-https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd|license_type=clearkey&license_key=349ac1b8d5f2493d97ffd88d364de38c:92e769c36e60dcd8573c08fd9c27b9bf&User-Agent=referrer=https://www.visionplus.id/
+#EXTINF:-1 tvg-id="MaanTV.ps@SD" tvg-logo="https://i.imgur.com/hRFa03k.png" group-title="Berita International",Ma'an TV
+https://htvmada.mada.ps:4443/maannews/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/nhk_150.png" group-title="Berita International",NHK World Premium
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/85b02e02587747058c1940af6aa3d0fa/index.mpd|license_type=org.w3.clearkey&license_key=2f699274d40f479d89804912c134830d:352d8c910649b4d332047cf2833bb43f&User-Agent=referrer=https://www.visionplus.id/
+#EXTINF:-1 tvg-id="PalestineToday.ps" tvg-logo="https://i.imgur.com/BS8XXug.png" group-title="Berita International",Palestine Today TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://live.paltodaytv.com/paltv/live/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.mncnow.id/images/channel/ab7f9e6a/4023_r32.jpg" group-title="Berita International",TRT World
-https://op-flashcon-digdayahd-1.dens.tv/h/h20/index.m3u8|User-Agent=referrer=http://www.dens.tv/
+#EXTINF:-1 tvg-id="FalastiniTV.ps@SD" tvg-logo="https://i.imgur.com/6B3Cims.png" group-title="Berita International",Falastini TV
+https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8
