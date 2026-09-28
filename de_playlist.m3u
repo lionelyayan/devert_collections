@@ -1,55 +1,74 @@
 #EXTM3U
 
-# =========================
-# INDONESIA
-# =========================
+# ===== INDONESIA =====
+#EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqu3uVWEYZpgNsRFjsIns7W4IJoco3hqCoJR6PhJXA4wBlKPukSG4a1qPJblt0aELWfuvhwGZWcIZMhxltraI4C2onG9vRiJWwW4i8a04apMc-MfpIQ4ptrOhcAQkXyVPKHeylwbVZAKuS3JxtoJugGvp7Fpr8yL-goijBHOUpPA2BXnztqR4kg961UI9o/s700/INEWS.png" group-title="Berita Indonesia",iNews
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 
-#EXTINF:-1 tvg-id="KompasTV.id" tvg-name="Kompas TV" group-title="Indonesia News",Kompas TV
-https://livestream.kompas.tv/live/kompastv.m3u8
+#EXTINF:-1 tvg-id="Metro TV" tvg-logo="https://imgur.com/RiArMD3.png" group-title="Berita Indonesia",Metro TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
 
-#EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV" group-title="Indonesia News",Metro TV
-https://edge.metrotvnews.com/live-edge/smil:metrotv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://imgur.com/CtB7O0L.png" group-title="Berita Indonesia",TVOne
+https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8
 
-#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-name="CNN Indonesia" group-title="Indonesia News",CNN Indonesia
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/jyJ1TG0/latest-1.png" group-title="Berita Indonesia",BeritaSatu
+https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu|User-Agent=referrer=http://www.dens.tv/
 
-#EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-name="CNBC Indonesia" group-title="Indonesia News",CNBC Indonesia
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgur.com/b6c3fQ6.png" group-title="Berita Indonesia",BTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV
 
-#EXTINF:-1 tvg-id="TVRI.id" tvg-name="TVRI Nasional" group-title="Indonesia News",TVRI Nasional
+#EXTINF:-1 tvg-logo="https://imgur.com/2LEtNVH.png" group-title="Berita Indonesia",Magna TV
+https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVRI.id" tvg-logo="https://imgur.com/r4n1MxB.png" group-title="Berita Indonesia",TVRI World
+#EXTVLCOPT:http-user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://klik.tvri.go.id/
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+
+#EXTINF:-1 tvg-logo="https://imgur.com/AYJCNII.png" group-title="Berita Indonesia",Jawa Pos TV
+https://calistaiptv.my.id/indopart/play.mpd?id=9714&type=dash
+
+#EXTINF:-1 tvg-logo="https://imgur.com/K1w3Ku8.png" group-title="Berita Indonesia",Sin Po TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+https://calistaiptv.my.id/indopart/play.m3u8?id=19046&type=hls
+
+#EXTINF:-1 tvg-logo="https://imgur.com/0D1P1LU.png" group-title="Berita Indonesia",Elshinta TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+https://calistaiptv.my.id/indopart/play.m3u8?id=10975&type=hls
+
+#EXTINF:-1 tvg-id="Kompas TV" group-title="Berita Indonesia",Kompas TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://op-group1-densxvisionhd-1.dens.tv/s/s104/index.m3u8
+
+#EXTINF:-1 tvg-id="TVRINasional.id" tvg-logo="https://imgur.com/xl29nsd.png" group-title="Berita Indonesia",TVRI Nasional
+#EXTVLCOPT:http-user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 
-#EXTINF:-1 tvg-id="TVOne.id" tvg-name="tvOne" group-title="Indonesia News",tvOne
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000018/1024.m3u8
+#EXTINF:-1 tvg-logo="https://imgur.com/qRhUyRw.png" group-title="Berita Indonesia",Garuda TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+https://calistaiptv.my.id/indopart/play.m3u8?id=18162&type=hls
 
-#EXTINF:-1 tvg-id="AntaraTV.id" tvg-name="Antara TV" group-title="Indonesia News",Antara TV
-https://live.antara.tv/hls/antaratv.m3u8
+# ===== INTERNATIONAL =====
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/494/982/png-transparent-united-states-voice-of-america-internet-radio-voa-amharic-broadcasting-united-states-text-logo-united-states.png" group-title="Berita International",Voice of America
+https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist_1080.m3u8
 
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_332.jpg" group-title="Berita International",BBC World
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/7d38a4525dfa42b08a94c22c173061da/index.mpd|license_type=clearkey&license_key=0e7c10b448444c53904de46d1a30f427:d638c2cb75ff93d38b5ec8b6f5098dea&User-Agent=Mozilla/5.0
 
-# =========================
-# INTERNATIONAL
-# =========================
+#EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/5cf4dec937a44b00019d908f/1559574960556-C7EGQERUCYQJ92N7JRV1/Hi+res+Russia+Today+logo+2.jpg?format=2500w" group-title="Berita International",Russia Today
+https://op-flashcon-digdayahd-1.dens.tv/h/h226/index.m3u8?app_type=web&userid=lite&chname=Russia_Today_RT-|User-Agent=referrer=http://www.dens.tv/
 
-#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera English" group-title="International News",Al Jazeera English
-https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/aljazeera.png" group-title="Berita International",Al Jazeera Arabic
+https://op-flashcon-digdayahd-1.dens.tv/s/s16/index.m3u8?app_type=web&userid=lite&chname=Al_Jazeera_Arabic|User-Agent=referrer=http://www.dens.tv/
 
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" group-title="International News",France 24 English
-https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-logo="https://static.mncnow.id/images/channel/87f1d571/242b_r32.jpg" group-title="Berita International",CGTN
+https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd|license_type=clearkey&license_key=349ac1b8d5f2493d97ffd88d364de38c:92e769c36e60dcd8573c08fd9c27b9bf&User-Agent=referrer=https://www.visionplus.id/
 
-#EXTINF:-1 tvg-id="DW.de@English" tvg-name="DW English" group-title="International News",DW English
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/nhk_150.png" group-title="Berita International",NHK World Premium
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/85b02e02587747058c1940af6aa3d0fa/index.mpd|license_type=org.w3.clearkey&license_key=2f699274d40f479d89804912c134830d:352d8c910649b4d332047cf2833bb43f&User-Agent=referrer=https://www.visionplus.id/
 
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-name="Euronews English" group-title="International News",Euronews English
-https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
-
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" group-title="International News",NHK World-Japan
-https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
-
-#EXTINF:-1 tvg-id="CNAInternational.sg" tvg-name="CNA" group-title="International News",CNA
-https://mediacorp-videosbclive.akamaized.net/dd724cfb0e8e4cdc921bbc4ac94614bf/ap-southeast-1/6057994443001/profile_1/chunklist.m3u8
-
-#EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="Bloomberg TV US" group-title="International News",Bloomberg TV US
-https://bloomberg.com/media-manifest/streams/us.m3u8
-
-#EXTINF:-1 tvg-id="AfricanewsEnglish.fr" tvg-name="Africanews English" group-title="International News",Africanews English
-https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.mncnow.id/images/channel/ab7f9e6a/4023_r32.jpg" group-title="Berita International",TRT World
+https://op-flashcon-digdayahd-1.dens.tv/h/h20/index.m3u8|User-Agent=referrer=http://www.dens.tv/
